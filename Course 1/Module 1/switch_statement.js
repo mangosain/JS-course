@@ -1,15 +1,18 @@
-const option = "A";
+const option = "a";
 
 switch (option) {
-  case "A" || "a":
+  case "A":
+  case "a":
     console.log("Option A");
     break;
 
-  case "B" || "b":
+  case "B":
+  case "b":
     console.log("Option B");
     break;
 
-  case "C" || "c":
+  case "C":
+  case "c":
     console.log("Option C");
     break;
 
