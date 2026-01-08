@@ -1,4 +1,4 @@
-function answer(city, points) {
+function answer(city, points = 5) {
   console.log(`The answer is ${city}. You get ${points}`);
 }
 

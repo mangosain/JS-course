@@ -3,7 +3,7 @@ function startCountdown(seconds) {
     console.log(`Your device will shutdown in ${seconds} seconds`);
     seconds--;
 
-    if (seconds == 0) {
+    if (seconds == -1) {
       console.log(`Your device is shutting down`);
       clearInterval(cntInt);
     }

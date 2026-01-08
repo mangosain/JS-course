@@ -26,6 +26,6 @@ const characters = [
   },
 ];
 
-characters.forEach(function (character, index) {
+characters.forEach((character, index) => {
   console.log(index, character.title);
 });
