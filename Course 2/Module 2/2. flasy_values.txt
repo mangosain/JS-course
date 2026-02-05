@@ -1,0 +1,8 @@
+false
+0 or -0
+"" or ''
+null
+undefined
+NaN
+0n
+Document.all(deprecated)
